@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/speechtotextdbserver/databases/WebApplication3_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:GoogleConnection",
+      "dynamicId": null
+    }
+  }
+}
