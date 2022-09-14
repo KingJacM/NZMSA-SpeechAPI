@@ -4,6 +4,7 @@ terraform {
     azurerm = {
       source  = "registry.terraform.io/hashicorp/azurerm"
       version = "~> 3.0.2"
+      
     }
     
   }

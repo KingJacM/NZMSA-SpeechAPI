@@ -363,6 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 
 .terraform
-WebApplication3/terraform.tfstate.backup
-WebApplication3/terraform.tfstate
-WebApplication3/terraform.tfstate
+
