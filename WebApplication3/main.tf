@@ -4,12 +4,18 @@ terraform {
     azurerm = {
       source  = "registry.terraform.io/hashicorp/azurerm"
       version = "~> 3.0.2"
-      
+
     }
     
   }
 
   required_version = ">= 1.1.0"
+}
+
+variable "imagebuild"{
+  type = string
+
+  description = "Latest Image Build"
 }
 
 provider "azurerm" {
@@ -32,7 +38,7 @@ resource "azurerm_container_group" "cg" {
 
   container {
       name            = "speechapi"
-      image           = "kingjac/speechapi"
+      image           = "kingjac/speechapi:${var.imagebuild}"
         cpu             = "1"
         memory          = "1"
 
