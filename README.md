@@ -15,8 +15,10 @@ Further, a containerised version of API is built and used Terraform to structure
 <img src="./screenshot.png">
 (Azure DevOps pipeline)
 <img src="./screenshot2.png">
+(App Service)
 <img src="./screeshot3.png">
+(Containerised API using Terraform)
 
-# 2. Important notes
+# 2. Notes
 
-During the progress, a few non-technical problems regarding cloud account usage was occurred, including disabled Google Cloud json key and Azure DevOps policy changes for free tier users, therefore resulted in late submission.
+During the progress, a few non-technical problems regarding cloud account usage was occurred, including disabled Google Cloud json key and Azure DevOps policy changes for free tier users, therefore requested for late submission.
