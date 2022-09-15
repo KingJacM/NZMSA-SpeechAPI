@@ -19,4 +19,4 @@ Further, a containerised version of API is built and used Terraform to structure
 
 # 2. Important notes
 
-During the progress, a few non-technical problems regarding cloud account usage was occurred, including disabled Google Cloud json key and Azure DevOps policy changes for free tier users, therefore resulted in late submission.
+During the progress, a few non-technical problems regarding cloud account usage was occurred, including disabled Google Cloud json key and Azure DevOps policy changes for free tier users, therefore requested for late submission.
