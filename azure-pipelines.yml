@@ -49,7 +49,7 @@ stages:
        
         terraform apply -input=false -auto-approve
       name: 'RunTerraform'
-      displayName: 'Run Terraform.'
+      displayName: 'Run Terraform'
       env:
         ARM_CLIENT_ID: $(ARM_CLIENT_ID)
         ARM_CLIENT_SECRET: $(ARM_CLIENT_SECRET)
