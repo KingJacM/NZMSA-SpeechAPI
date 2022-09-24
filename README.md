@@ -9,7 +9,7 @@ In Phase 3, a YAML CI/CD pipeline is used to build and deploy API and  MySQL dat
 
 Further, a containerised version of API is built and used Terraform to structure and provision a cloud environment, which is incorporated into a Azure DevOps CI/CD pipeline with Docker involved.
 <img src="./diagram.png">
-> source: https://www.youtube.com/watch?v=Ff0DoAmpv6w
+> source: https://www.youtube.com/watch?v=Ff0DoAmpv6ws
 
 
 <img src="./screenshot.png">
